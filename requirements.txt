@@ -2,7 +2,7 @@ click==8.1.6
 Flask==2.2.5
 Flask-SQLAlchemy==3.0.5
 greenlet==2.0.2
-gunicorn==21.2.0
+# gunicorn==21.2.0 # removed due to CVE-2024-1135, no fix yet.  Was going to delete repo but this should be fine for now. 
 importlib-metadata==6.7.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
